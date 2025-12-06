@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Yean-frontend-finalPrep/static/css/main.f04ed581.css",
+    "main.js": "/Yean-frontend-finalPrep/static/js/main.525485d5.js",
+    "index.html": "/Yean-frontend-finalPrep/index.html",
+    "main.f04ed581.css.map": "/Yean-frontend-finalPrep/static/css/main.f04ed581.css.map",
+    "main.525485d5.js.map": "/Yean-frontend-finalPrep/static/js/main.525485d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f04ed581.css",
+    "static/js/main.525485d5.js"
+  ]
+}
