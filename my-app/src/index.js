@@ -1,7 +1,13 @@
-import { quiz6 } from "./quizzes/quiz6";
-import { quiz7 } from "./quizzes/quiz7";
-import { quiz8 } from "./quizzes/quiz8";
-import { quiz9 } from "./quizzes/quiz9";
-import { quiz10 } from "./quizzes/quiz10";
+// src/index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css'; // Optional: Add your CSS here
+import App from './App'; // Import the main App component
 
-export const QUIZZES = [quiz6, quiz7, quiz8, quiz9, quiz10];
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
