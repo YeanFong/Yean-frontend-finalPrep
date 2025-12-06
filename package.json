@@ -4,9 +4,10 @@
   "description": "A quiz app built with React for final exam prep.",
   "main": "src/index.js",
   "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0", 
+    "react-router-dom": "^6.0.0",
     "react-scripts": "5.0.0"
   },
   "devDependencies": {
