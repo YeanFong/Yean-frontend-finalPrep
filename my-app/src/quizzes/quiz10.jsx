@@ -178,9 +178,9 @@ export const quiz10 = {
       question: "How do you define an index route in React Router v6?",
       options: [
         "<Route path='index' element={<Home />} />",
-        "<Route path='/index' element={<Home />} />",
+        "<Route path='/'index element={<Home />} />",
         "<Route index element={<Home />} />",
-        "<Route path='/index' element={<Home />} />",
+        "<Route default element={<Home />} />",
       ],
       correctIndex: 2,
       explanation:
