@@ -398,7 +398,7 @@ const solutionData = [
         question: "What does this code do?",
         code: `
 const MyComponent = React.lazy(() => import('./MyComponent'));`,
-        correctAnswers: ["Code splitting with dynamic import"],
+        correctAnswers: ["Creates a lazy-loaded component"],
       },
       {
         question: "Which React function enables lazy loading of components?",

@@ -106,14 +106,14 @@ export const quiz9 = {
       code: `
 const MyComponent = React.lazy(() => import('./MyComponent'));`,
       options: [
-        "Eager loading",
-        "Component composition",
-        "Static import",
-        "Code splitting with dynamic import",
+        "Creates a lazy-loaded component",
+        "Imports compenent synchronously",
+        "Returns undefined",
+        "Throws an error",
       ],
-      correctIndex: 3,
+      correctIndex: 1,
       explanation:
-        "This demonstrates code splitting by dynamically importing a component only when it's needed, reducing initial bundle size.",
+        "This creates a lazy-loaded component that will be dynamically imported when needed, reducing initial bundle size.",
     },
     {
       id: 9,
