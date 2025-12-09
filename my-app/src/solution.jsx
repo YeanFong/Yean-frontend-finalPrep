@@ -458,6 +458,14 @@ const LazyComponent = lazy(() => import('./Heavy'));`,
         question: "What is an Error Boundary used for?",
         correctAnswers: ["Catching JavaScript errors in component tree"],
       },
+      {
+        question: "What happens when a suspended component throws a promise?",
+        correctAnswers: ["Suspense catches it and shows fallback"],
+      },
+      {
+        question: "What is the difference between Suspense and Error Boundary?",
+        correctAnswers: ["Suspense handles loading, Error Boundary handles error"],
+      },
     ],
   },
   {

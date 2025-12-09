@@ -266,6 +266,32 @@ const LazyComponent = lazy(() => import('./Heavy'));`,
       explanation:
         "Error Boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display fallback UI.",
     },
+    {
+      id: 21,
+      question: "What happens when a suspended component throws a promise?",
+      options: [
+        "Promise is ignored",
+        "Application crashes",
+        "Suspense catches it and shows fallback",
+        "Component unmounts",
+      ],
+      correctIndex: 2,
+      explanation:
+        "When a component suspends by throwing a promise, the nearest Suspense boundary catches it and shows fallback UI.",
+    },
+    {
+      id: 22,
+      question: "What is the difference between Suspense and Error Boundary?",
+      options: [
+        "No difference",
+        "Suspense handles loading, Error Boundary handles error",
+        "Error Boundary is deprecated",
+        "Suspense is for classes only",
+      ],
+      correctIndex: 1,
+      explanation:
+        "Suspense handles loading states for async operations, while Error Boundaries catch and handle runtime errors.",
+    },
   ]
 };
 
