@@ -123,11 +123,11 @@ export const quiz10 = {
       question: "Which is the correct way to define a route with a dynamic parameter?",
       options: [
         "path='/users/$userId'",
+        "path='/users/{userId}'",
+        "path='/users/[userId]",
         "path='/users/:userId'",
-        "path='/users/$userId/:details'",
-        "path='/users/:userId/details'",
       ],
-      correctIndex: 1,
+      correctIndex: 3,
       explanation:
         "React Router uses the ':paramName' syntax for dynamic URL parameters.",
     },
